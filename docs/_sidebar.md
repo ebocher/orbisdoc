@@ -15,7 +15,7 @@
 - OrbisMap
 
   - [Overview](orbismap/README.md)
-  - [SymCore standard](orbismap/README.md)
+  - [SymCore standard](orbismap/symcore.md)
   - [Feature2DStyle](orbismap/feature2dstyle.md)
   - [Encodings](orbismap/encodings.md)
 
