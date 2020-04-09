@@ -1,2 +1,2 @@
-# orbisdoc
+# OrbisData
 Documentation for next OrbisGIS tools
