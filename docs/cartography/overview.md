@@ -1,0 +1,2 @@
+## Symcore standard
+

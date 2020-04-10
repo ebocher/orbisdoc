@@ -8,9 +8,14 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
   <link rel="stylesheet" href="assets/styles.css"/>
+  <link href="assets/fontawesome-free-5.13.0-web/css/fontawesome.css" rel="stylesheet">
+  <link href="assets/fontawesome-free-5.13.0-web/css/brands.css" rel="stylesheet">
+  <link href="assets/fontawesome-free-5.13.0-web/css/solid.css" rel="stylesheet">
 </head>
 <body>
   <div id="app"></div>
+
+  <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
   <script>
     window.$docsify = {
       name: 'OrbisGIS',
@@ -21,7 +26,9 @@
     	coverpage: true, 
 	autoHeader: true,
 	onlyCover: true,
-	notFoundPage: '_my404.md', 
+	notFoundPage: {
+    '/': '_my404.md',
+  },
 	auto2top: true,
 	search: {
           paths: 'auto',
@@ -29,6 +36,30 @@
           noData: 'No Results.'
         },
 	homepage: 'https://raw.githubusercontent.com/ebocher/orbisdoc/master/README.md',
+	 plugins: [
+      EditOnGithubPlugin.create(
+          'https://github.com/ebocher/orbisdoc/blob/master/docs/'
+        ),
+        function (hook) {
+          var footer = [
+            '<hr/>',
+            '<footer>',
+            '<span><a href="https://github.com/orbisgis/"> OrbisGIS team</a> &copy;2020.</span>',
+            '<span>Proudly published with <a href="https://docsify.js.org" target="_blank">docsify</a>.</span>',
+            '<span></br></span>',
+            '<span><a class="fas fa-globe-europe" href="http://www.openstreetmap.org/node/1688481015#map=13/47.6398/-2.7837" target="blank" title="OSM Map"> </a>, Vannes-France</span>',
+            '<span> | </span>',
+            '<span><a class="fas fa-envelope" href="mailto:info   at    orbisgis.org" title="E-mail"></a></span>',
+            '<span> | </span>',
+            '<span><a class="fab fa-twitter" href="https://twitter.com/OrbisGIS" target="blank" title="Twitter"></a></span>',
+            '</footer>'
+          ].join('')
+
+          hook.afterEach(function (html) {
+            return html + footer
+          })
+        },
+    ],
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
