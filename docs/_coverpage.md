@@ -4,7 +4,7 @@
   <div class="logo"></div>
 </div>
 
-> Free and open source geographic information tools.
+> Free and open source geographic information tools to serve environemental and social issues.
     
 - 🚀 Simple, Powerful, & Intuitive tools to build spatial analysis
 - 🔥 Disruptive standard and tools for cartography
