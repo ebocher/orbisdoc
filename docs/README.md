@@ -2,7 +2,7 @@
 
 
 > OrbisGIS platform is a set of open source tools to access, process, display and share geographical informations.
-It is leaded by CNRS within the French Lab-STICC laboratory, DECIDE team of Vannes.
+It is leaded by [CNRS](https://www.cnrs.fr) within the French [Lab-STICC laboratory, DECIDE team of Vannes](https://www.labsticc.fr).
 
 
  
