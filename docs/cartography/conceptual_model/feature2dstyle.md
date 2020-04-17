@@ -1,6 +1,6 @@
 
 
-**OGC Style Extensions for 2D Feature Type**
+**OGC Style Extensions for 2D Feature Type (DRAFT)**
 
 > FeatureTypeStyle is an extension that defines conceptual element for styling 2D vector geometry. 
 
