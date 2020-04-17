@@ -65,15 +65,18 @@ to symbolize geodata. That’s why this proposal has a focus on symbology versus
 between some geodata and some styles to build a map, each of these styles are built of a set of symbology rules 
 in accordance with SymCore.The overall motivation that lead to this proposal is related to 
 the issue “​how to make richer the symbology abilities​”. 
+
 **The first** answer is modularity which comes with extensibility. SE 1.1 is not modular per se, while this proposal 
 is designed to be so with a core model extensible to host the diversity of such abilities in relation to various data models. 
 It means that the core model is somewhat abstract and does not define concrete visualisations 
 (e.g. red dashed line of wide thickness to draw features of type cable car).
+
 **The second** answer that follows from the first is about extensions. As soon as the conceptual basis is set out in a 
 specification document (this proposal), then extensions have to document the concrete symbology concepts to portray 
 geodata structured according to a given data model. It is worth to notice that conceptually the core model is not related 
 to any specific underlying data model to represent. It is up to an extension to define styling abilities in relation to 
 a specific data model(e.g 2DFeatureTypeStyle).
+
 **Third** answer is about encodings. As soon as the conceptual basis is set out, extensions packaged,then it is to define 
 encodings to format the concrete conceptual symbology abilities.
 

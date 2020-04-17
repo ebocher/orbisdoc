@@ -1,7 +1,0 @@
-# Introduction
-
-
-## XML
-
-
-## JSON
