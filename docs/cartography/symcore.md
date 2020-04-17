@@ -1,7 +1,7 @@
 ## Symbology conceptual core standard (SymCore)
 
 <p align="left">
-  <img alt="OGC" width="70px" src="../assets/images/ogc_new_logo.png" />
+  <img alt="OGC" width="70px" src="./assets/images/ogc_new_logo.png" />
 </p>
 
 The SWG work that led to SymCore proposal has been done in the continuation of the [Symbology Encoding standard](https://www.ogc.org/standards/se) (SE 1.1). 
