@@ -23,6 +23,7 @@ To define the access to the exact feature type geometry to style, the extension 
 
 
 **Requirement ID:** [http://www.opengis.net/spec/symbology/2.0/req/PointSymbolizerClass/Geomerty
+
 **Requirement Txt:** Implementations shall support the encoding of the below added property to the PointSymbolizer class and meet all of the tabulated constraints and notes.
 
 **Requirement ID:** [http://www.opengis.net/spec/symbology/2.0/req/LineSymbolizerClass/Geomerty](http://www.opengis.net/spec/symbology/2.0/req/LineSymbolizerClass/Geomerty)
