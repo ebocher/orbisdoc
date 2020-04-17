@@ -16,14 +16,15 @@
   - [Use cases](cartography/use_cases.md)
 
 
-- Spatial analysis
-  - [Overview](spatial_analysis/overview.md)
+- [Spatial analysis](spatial_analysis/overview.md)
   - [OrbisData](spatial_analysis/orbisdata.md)
   - [Use cases](spatial_analysis/use_cases.md)
   
 - Framework
   - [OrbisRCP](framework/orbisrcp.md)
   - [Geoserver](framework/geoserver.md)
+  
+- Applications
   
 - [Community](community/community.md)
 

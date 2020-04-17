@@ -6,7 +6,7 @@
 
 **Scope:** All requirements in this subsection relate to the above requirement class.
 
-**Dependency:** http://www.opengis.net/spec/symbology/2.0/req/core
+**Dependency:** http://www.opengis.net/spec/symbology/2.0/req/symcore
 
 **Requirement ID:** http://www.opengis.net/spec/symbology/2.0/req/SolidFillClass
 
@@ -25,7 +25,7 @@ The SolidFill class is a concrete implementation of the Fill class and allows to
 
 **Scope:** All requirements in this subsection relate to the above requirement class.
 
-**Dependency:** http://www.opengis.net/spec/symbology/2.0/req/core
+**Dependency:** http://www.opengis.net/spec/symbology/2.0/req/symcore
 
 **Requirement ID:** http://www.opengis.net/spec/symbology/2.0/req/GraphicFillClass
 
@@ -60,7 +60,7 @@ The graphicFill mechanism is illustrated in [Annexe B - GraphicFill](https://doc
 
 **Scope:** All requirements in this subsection relate to the above requirement class.
 
-**Dependency:** http://www.opengis.net/spec/symbology/2.0/req/core
+**Dependency:** http://www.opengis.net/spec/symbology/2.0/req/symcore
 
 **Requirement ID:** http://www.opengis.net/spec/symbology/2.0/req/HatchedFillClass
 
@@ -89,7 +89,7 @@ The HatchedFill extension is a concrete implementation of Fill class. It offers 
 
 **Scope:** All requirements in this subsection relate to the above requirement class.
 
-**Dependency:** http://www.opengis.net/spec/symbology/2.0/req/core
+**Dependency:** http://www.opengis.net/spec/symbology/2.0/req/symcore
 
 **Requirement ID:** http://www.opengis.net/spec/symbology/2.0/req/PenStrokeClass
 
@@ -110,7 +110,7 @@ The PenStroke extension is a concrete implementation of the Stroke class. It all
 
 **Scope:** All requirements in this subsection relate to the above requirement class.
 
-**Dependency:** http://www.opengis.net/spec/symbology/2.0/req/core
+**Dependency:** http://www.opengis.net/spec/symbology/2.0/req/symcore
 
 **Requirement ID:** http://www.opengis.net/spec/symbology/2.0/req/GraphicStrokeClass
 
@@ -131,7 +131,7 @@ The GraphicStroke extension is a concrete implementation of the Stroke class. It
 
 **Scope:** All requirements in this subsection relate to the above requirement class.
 
-**Dependency:** http://www.opengis.net/spec/symbology/2.0/req/core
+**Dependency:** http://www.opengis.net/spec/symbology/2.0/req/symcore
 
 **Requirement ID:** http://www.opengis.net/spec/symbology/2.0/req/TextStrokeClass
 
@@ -162,7 +162,7 @@ TODO :
 
 **Scope:** All requirements in this subsection relate to the above requirement class.
 
-**Dependency:** http://www.opengis.net/spec/symbology/2.0/req/core
+**Dependency:** http://www.opengis.net/spec/symbology/2.0/req/symcore
 
 **Requirement ID:** http://www.opengis.net/spec/symbology/2.0/req/RGBColorClass
 
@@ -182,7 +182,7 @@ The RGBColor extension is a concrete implementation of the Color class where the
 
 **Scope:** All requirements in this subsection relate to the above requirement class.
 
-**Dependency:** http://www.opengis.net/spec/symbology/2.0/req/core
+**Dependency:** http://www.opengis.net/spec/symbology/2.0/req/symcore
 
 **Requirement ID:** http://www.opengis.net/spec/symbology/2.0/req/ExternalGraphicClass
 
@@ -207,7 +207,7 @@ The ExternalGraphic extension extends the abstract Graphic type. It allows to re
 
 **Scope:** All requirements in this subsection relate to the above requirement class.
 
-**Dependency:** http://www.opengis.net/spec/symbology/2.0/req/core
+**Dependency:** http://www.opengis.net/spec/symbology/2.0/req/symcore
 
 **Requirement ID:** http://www.opengis.net/spec/symbology/2.0/req/MarkGraphicClass
 
@@ -310,7 +310,7 @@ For a TextSymbolizer, the extension  has the same meaning as for LineSymbolizer 
 
 **Scope:** All requirements in this subsection relate to the above requirement class.
 
-**Dependency:** http://www.opengis.net/spec/symbology/2.0/req/core
+**Dependency:** http://www.opengis.net/spec/symbology/2.0/req/symcore
 
 
 
@@ -357,7 +357,7 @@ The extension introduces a code list used to define the the line style. The sema
 
 **Scope:** All requirements in this subsection relate to the above requirement class.
 
-**Dependency:** http://www.opengis.net/spec/symbology/2.0/req/core
+**Dependency:** http://www.opengis.net/spec/symbology/2.0/req/symcore
 
 **Description:** The extension extends the PenStroke class with two properties DashArray and DashOffset used to manage dash values on a line.
 
