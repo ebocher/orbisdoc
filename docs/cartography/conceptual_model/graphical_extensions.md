@@ -154,7 +154,22 @@ The TextStroke extension is a concrete implementation of the Stroke class. It is
 
 ### HexaColor
 
-TODO :
+**Requirement class:** http://www.opengis.net/spec/symbology/2.0/req/HexaColor
+
+**Scope:** All requirements in this subsection relate to the above requirement class.
+
+**Dependency:** http://www.opengis.net/spec/symbology/2.0/req/symcore
+
+**Requirement ID:** http://www.opengis.net/spec/symbology/2.0/req/HexaColorClass
+
+**Requirement Txt:** Implementations shall support the encoding of all properties of the HexaColor extension and meet all of the tabulated constraints and notes.
+
+The HexaColor extension is a concrete implementation of the Color class to expressed a RGB color model.  The format of the color is in hexadecimal notation. It is a ‘`#`’ immediately followed by either three or six   hexadecimal characters.
+
+| **Name** | **Definition**                | **Data type and value**                                      | **Multiplicity** |
+| -------- | ----------------------------- | ------------------------------------------------------------ | ---------------- |
+| color      | The hexadecimal notation of the color    | ParameterValue data type (String) Default value: #000000  | one              |
+
 
 ### RGBColor
 
@@ -175,6 +190,20 @@ The RGBColor extension is a concrete implementation of the Color class where the
 | red      | The red value of the color    | ParameterValue data type (Integer) Value: (0;255)Default value: 0 | one              |
 | green    | The green value of the colorR | ParameterValue data type (Integer) Value: (0;255)Default value: 0 | one              |
 | blue     | The blue value of the color   | ParameterValue data type (Integer) Value: (0;255)Default value: 0 | one              |
+
+
+
+### WellKnownNameColor
+
+**Requirement ID:** http://www.opengis.net/spec/symbology/2.0/req/WellKnownNameColorClass
+
+**Requirement Txt:** Implementations shall support the encoding of all properties of the WellKnownNameColor and meet all of the tabulated constraints and notes.
+
+WellKnownNameColor is a codeList element that provides a list of color names to define a Color. The color names are case-insensitive.
+The list is based of the [X11 colors](https://en.wikipedia.org/wiki/X11_color_names).
+
+
+
 
 ## ExternalGraphic extension
 
