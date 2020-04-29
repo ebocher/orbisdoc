@@ -151,7 +151,6 @@ The TextStroke extension is a concrete implementation of the Stroke class. It is
 ## Color extensions
 
 
-
 ### HexaColor
 
 **Requirement class:** http://www.opengis.net/spec/symbology/2.0/req/HexaColor

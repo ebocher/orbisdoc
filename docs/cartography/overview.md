@@ -1,7 +1,5 @@
-Despite most [Spatial Data Infrastructures](http://gsdiassociation.org/index.php/publications/sdi-cookbooks.html) offering 
-service-based visualization of geospatial data, requirements are often at a very basic level leading to poor quality of maps. 
-This is a general observation for any geospatial architecture as soon as open standards as those of the Open Geospatial Consortium ([OGC](https://www.ogc.org/)) 
-are applied. 
+Despite most [Spatial Data Infrastructures](http://gsdiassociation.org/index.php/publications/sdi-cookbooks.html) offering service-based visualization of geospatial data, requirements are often at a very basic level leading to poor quality of maps. 
+This is a general observation for any geospatial architecture as soon as open standards as those of the Open Geospatial Consortium ([OGC](https://www.ogc.org/)) are applied. 
 To improve the situation, the [Media Engineering Institute](https://heig-vd.ch/rad/instituts/mei) and the LAB-STICC - [CNRS](https://www.cnrs.fr) 
 focused on improvements at the portrayal interoperability side by considering standardization aspects. 
 
@@ -10,17 +8,12 @@ We propose two major redesign recommendations.
 - First to consolidate the cartographic theory at the core of the OGC [Symbology Encoding standard](https://www.ogc.org/standards/se). 
 - Secondly to build the standard in a modular way so as to be ready to be extended with upcoming future cartographic requirements. 
 
-Thus, we start by defining portrayal interoperability by means of typical-use cases that frame the concept of sharing cartography 
-(Ertz, Julien & Bocher, 2012; Ertz, 2013). Then we bring to light the strengths and limits of the relevant 
-open standards to consider in this context (Sae-Tang A, Ertz O. 2007 ; Bocher et al, 2012). 
+Thus, we start by defining portrayal interoperability by means of typical-use cases that frame the concept of sharing cartography (Ertz, Julien & Bocher, 2012; Ertz, 2013). Then we bring to light the strengths and limits of the relevant open standards to consider in this context (Sae-Tang A, Ertz O. 2007 ; Bocher et al, 2012). 
 Finally we propose a set of recommendations to overcome the limits so as to make these use cases a true reality. 
-Even if the definition of a cartographic-oriented standard is not able to act as a complete cartographic design framework by itself, 
-we argue that pushing forward the standardization work dedicated to cartography is a way to share and disseminate good practices and finally 
-to improve the quality of the visualizations (Bocher et al, 2011, Bocher & Ertz, 2015; 2018).
+Even if the definition of a cartographic-oriented standard is not able to act as a complete cartographic design framework by itself,  we argue that pushing forward the standardization work dedicated to cartography is a way to share and disseminate good practices and finally to improve the quality of the visualizations (Bocher et al, 2011, Bocher & Ertz, 2015; 2018).
 
 
-This research work on the standardization of cartographic representations has been discussed since 2010 in the Standard Working Group
-[Styled Layer Descriptor and Symbology Encoding](https://www.ogc.org/projects/groups/sldse1.2swg).
+This research work on the standardization of cartographic representations has been discussed since 2010 in the Standard Working Group [Styled Layer Descriptor and Symbology Encoding](https://www.ogc.org/projects/groups/sldse1.2swg).
 
 In October 2019, the SWG group proposed a new abstract, conceptual and modular specification called **SymCore**.
 
