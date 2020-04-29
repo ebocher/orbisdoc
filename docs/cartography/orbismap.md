@@ -44,7 +44,7 @@ The Map module contains the mechanism to parse style and draw it. It is divided 
 
 
 
-![Rendering engine](/home/ebocher/Autres/codes/orbisdoc/docs/cartography/images/se_rendering_engine.png)
+![Rendering engine](./images/se_rendering_engine.png)
 
 <center>Figure 14: Main sequences of the rendering engine.</center>
 
