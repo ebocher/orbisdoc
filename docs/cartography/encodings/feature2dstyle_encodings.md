@@ -4,7 +4,7 @@ A style encoding contains all the grammar and rules that the machine can underst
 
 Two encodings are provided for the Feature2DStyle model :  XML and JSON. 
 
-The table below 
+The table below gives a short description of the style elements encoded in XML or JSON formats.
 
 |                    | XML                                                          | JSON                                                         |
 | ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -19,8 +19,7 @@ The table below
 
 
 
-Here two examples in XML and JSON.
-
+Here two examples : 
 
 
 ```xml
